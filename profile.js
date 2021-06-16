@@ -30,10 +30,18 @@ export const projects = [
       "Una app fullstack para guardar datos de libros en una base de datos en la nube",
     image: "portfolio1.jpg",
     url: "https://books-app-fullstack.herokuapp.com",
-    urlgit: ""
+  },
+  {
+    name: "Rest Api con nodejs",
+    description:
+      "Una app fullstack para guardar datos de libros en una base de datos en la nube",
+    image: "portfolio2.jpg",
+    url: "https://github.com/arturodiaz777/restapi-nodejs",
   }
   
+  
 ];
+
 
 export const posts = [
   {
