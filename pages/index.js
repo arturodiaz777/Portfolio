@@ -11,7 +11,7 @@ const Index = () => (
         <div className="card card-body bg-secondary text-light animate__animated animate__fadeIn">
           <div className="row">
             <div className="col-md-4">
-              <img src="/ryan-ray-profile2.jpeg" alt="" className="img-fluid" />
+              <img src="/ad.jpeg" alt="" className="img-fluid" />
             </div>
             <div className="col-md-8">
               <h1>Arturo Diaz</h1>
@@ -22,7 +22,7 @@ const Index = () => (
                 iste consequuntur enim reprehenderit architecto consectetur cum?
                 Totam ad molestias natus illum illo officia.
               </p>
-              <Link href="/hireme">
+              <Link href="/contact">
                 <a className="btn btn-outline-light">Hire Me</a>
               </Link>
             </div>
