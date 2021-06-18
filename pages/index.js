@@ -42,8 +42,8 @@ const Index = () => (
             {/* Skill Progress  */}
             {skills.map(({ skill, percentage }, i) => (
               <div className="py-3" key={i}>
-                <ul class="list-group">
-                  <li class="list-group-item list-group-item-secondary">{skill}</li>
+                <ul className="list-group">
+                  <li className="list-group-item list-group-item-secondary">{skill}</li>
                 </ul>
               </div>
             ))}
