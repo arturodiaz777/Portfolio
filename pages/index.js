@@ -66,7 +66,7 @@ const Index = () => (
                     {from} {to ? `- ${to}` : "- current"}
                   </h5>
                   <p>
-                  Develop software in excel with visual basic for testers and make code in C to the  simulation software of electronics devices.
+                  Develop software in VBA and testing automation
                   </p>
                 </li>
               ))}
