@@ -3,14 +3,17 @@ export const skills = [
     skill: "Javascript"
   },
   {
-    skill: "Golang"
+    skill: "HTML/CSS"
   },
   {
     skill: "Nodejs"
   },
   {
-    skill: "Blockchain"
-  }
+    skill: "PostgreSQL"
+  },
+  {
+    skill: "MongoDB"
+  },
 ];
 
 export const experiences = [
@@ -18,8 +21,8 @@ export const experiences = [
     title: "Intern Software developer at Robert Bosch GmbH",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem officiis fugiat vel animi aliquam inventore rem. Quo laudantium temporibus cupiditate. Aut?",
-    from: 2021,
-    to: 2021,
+    from: "February 2021",
+    to: "Current",
   }
 ];
 
@@ -43,7 +46,7 @@ export const projects = [
     description:
       "A crud about tasks maked with Nodejs and Mongodb",
     image: "portfolio3.jpg",
-    url: "https://github.com/arturodiaz777/restapi-nodejs",
+    url: "https://github.com/arturodiaz777/crud-nodejs",
   }
   
   

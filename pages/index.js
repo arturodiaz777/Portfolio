@@ -15,12 +15,9 @@ const Index = () => (
             </div>
             <div className="col-md-8">
               <h1>Arturo Diaz</h1>
-              <h3>Back End Developer Jr</h3>
+              <h3>Developer Jr</h3>
               <p>
-                Lorm, ipsum dolor sit amet consectetur adipisicing elit.
-                Molestiae atque ullam perferendis harum, nisi porro voluptate,
-                iste consequuntur enim reprehenderit architecto consectetur cum?
-                Totam ad molestias natus illum illo officia.
+                Hi my name is Arturo Diaz, i am a mechatronics engineering student of UVM
               </p>
               <Link href="/contact">
                 <a className="btn btn-outline-light">Hire Me</a>
