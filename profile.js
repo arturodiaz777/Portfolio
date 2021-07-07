@@ -21,7 +21,7 @@ export const experiences = [
     title: "Intern Software developer at Robert Bosch GmbH",
     description:
       "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem officiis fugiat vel animi aliquam inventore rem. Quo laudantium temporibus cupiditate. Aut?",
-    from: "February 2021",
+    from: "May 2021",
     to: "Current",
   }
 ];
