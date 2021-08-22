@@ -56,14 +56,14 @@ const Index = () => (
 
             <ul>
               {/* List Item Experience */}
-              {experiences.map(({ title, from, to }, index) => (
+              {experiences.map(({ title, from, to,description }, index) => (
                 <li key={index}>
                   <h3>{title}</h3>
                   <h5>
                     {from} {to ? `- ${to}` : "- current"}
                   </h5>
                   <p>
-                  Develop software in VBA and testing automation
+                  {description}
                   </p>
                 </li>
               ))}

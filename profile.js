@@ -14,15 +14,30 @@ export const skills = [
   {
     skill: "MongoDB"
   },
+  {
+    skill: "Docker"
+  },
+  {
+    skill: "Kubernetes"
+  },
+  {
+    skill: "ReactJs"
+  }
 ];
 
 export const experiences = [
   {
-    title: "Intern Software developer at Robert Bosch GmbH",
-    description:
-      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint excepturi ea explicabo. Illum suscipit illo, porro quisquam voluptatem officiis fugiat vel animi aliquam inventore rem. Quo laudantium temporibus cupiditate. Aut?",
-    from: "May 2021",
+    title: "Intern in Software Architecture at IBM",
+    description:"Architecture and implementation to help with the security of servers, as well as databases using microservices. Architecture and unification of user accounts from different platforms using REST APIs, databases, OOP, Java and UML. Creation of integrations to synchronize different tools with webhooks and node.js",
+    from: "July 2021",
     to: "Current",
+  },
+  {
+    title: "Intern Software Developer at Robert Bosch GmbH",
+    description:
+      "Develop software in VBA and testing automation",
+    from: "January 2021",
+    to: "July 2021",
   }
 ];
 
