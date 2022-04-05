@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 import Link from "next/link";
 
-import { skills, experiences, projects } from "../profile";
+import { backEnd, frontEnd, experiences, projects } from "../profile";
 
 const Index = () => (
   <Layout>
@@ -16,8 +16,11 @@ const Index = () => (
             <div className="col-md-8">
               <h1>Arturo Diaz</h1>
               <h3>Developer Jr</h3>
-              <p>
-                Hi my name is Arturo Diaz, i am a mechatronics engineering student of UVM
+              <p align ="justify">
+              As Developer i am responsible for creating and maintaining software of various different kinds.
+               My typical responsibilities include investigating current applications, producing specifications
+               , writing new software and manuals and costing new or modified systems. As well as this,
+                i must help in the support and training of users.
               </p>
               <Link href="/contact">
                 <a className="btn btn-outline-light">Hire Me</a>
@@ -37,13 +40,34 @@ const Index = () => (
             <h1>Skills</h1>
 
             {/* Skill Progress  */}
-            {skills.map(({ skill, percentage }, i) => (
-              <div className="py-3" key={i}>
+              <div className="py-3">
                 <ul className="list-group">
-                  <li className="list-group-item list-group-item-secondary">{skill}</li>
+                  <li className="list-group-item list-group-item-secondary">
+                    <h5>Front End</h5>
+                    <ul>
+                      {frontEnd.map(({skill, logo}, i) => (
+                        <li>
+                          {logo}   {skill}
+                        </li>
+                      ))}
+                    </ul>
+                  </li>
                 </ul>
               </div>
-            ))}
+              <div className="py-3">
+                <ul className="list-group">             
+                  <li className="list-group-item list-group-item-secondary">
+                  <h5>Back End</h5>
+                    <ul>
+                      {backEnd.map(({skill, logo}, i) => (
+                        <li>
+                          {logo}   {skill}
+                        </li>
+                      ))}
+                    </ul>
+                  </li>
+                </ul>
+              </div>
           </div>
         </div>
       </div>
@@ -56,20 +80,21 @@ const Index = () => (
 
             <ul>
               {/* List Item Experience */}
-              {experiences.map(({ title, from, to,description }, index) => (
+              {experiences.map(({ logo, company, title, from, to,description }, index) => (
                 <li key={index}>
-                  <h3>{title}</h3>
+                  <h3>{title}   {logo}</h3>
+                  <h5> {company}</h5>
                   <h5>
                     {from} {to ? `- ${to}` : "- current"}
                   </h5>
-                  <p>
+                  <p align ="justify">
                   {description}
                   </p>
                 </li>
               ))}
             </ul>
             <Link href="/hireme">
-              <a className="btn btn-light">Know More</a>
+              <a className="btn btn-dark">Know More</a>
             </Link>
           </div>
         </div>
@@ -97,7 +122,7 @@ const Index = () => (
                     <div className="card-body">
                       <h3>{name}</h3>
                       <p>{description}</p>
-                      <a href={url}>See it</a>
+                      <a className="btn btn-dark" href={url}>Repository</a>
                     </div>
                   </div>
                 </div>

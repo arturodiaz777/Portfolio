@@ -1,40 +1,91 @@
-export const skills = [
+import { SiJavascript } from 'react-icons/si';
+import { SiHtml5 } from 'react-icons/si';
+import { SiReact } from 'react-icons/si';
+import { SiCss3 } from 'react-icons/si';
+import {FaNodeJs} from 'react-icons/fa';
+import {FaJava} from 'react-icons/fa';
+import { SiIbm } from 'react-icons/si';
+import { SiBosch } from 'react-icons/si';
+import { SiJest } from 'react-icons/si';
+import { BiData } from 'react-icons/bi';
+import { SiMongodb } from 'react-icons/si';
+import { SiPostgresql } from 'react-icons/si';
+import { SiHibernate } from 'react-icons/si';
+
+export const frontEnd = [
   {
-    skill: "Javascript"
+    skill: "Javascript",
+    logo: <SiJavascript/>
   },
   {
-    skill: "HTML/CSS"
+    skill: "ReactJs",
+    logo: <SiReact/>
   },
   {
-    skill: "Java"
+    skill: "HTML5",
+    logo: <SiHtml5/>
   },
   {
-    skill: "Nodejs"
+    skill: "CSS",
+    logo : <SiCss3/>
   },
   {
-    skill: "PostgreSQL"
+    skill: "Jest",
+    logo: <SiJest/>
+  }
+];
+export const backEnd = [
+  {
+    skill: "Java",
+    logo: <FaJava/>
   },
   {
-    skill: "MongoDB"
+    skill: "NodeJs",
+    logo: <FaNodeJs/>
   },
   {
-    skill: "ReactJs"
+    skill: "MongoDB",
+    logo: <SiMongodb/>
+  },
+  {
+    skill: "Mongoose",
+    logo: <BiData/>
+  },
+  {
+    skill: "PostgreSQL",
+    logo: <SiPostgresql/>
+  },
+  {
+    skill: "DB2",
+    logo: <SiIbm/>
+  },
+  {
+    skill: "TestNG",
+    logo: <FaJava/>
+  },
+  {
+    skill: "Hibernate",
+    logo: <SiHibernate/>
   }
 ];
 
 export const experiences = [
   {
-    title: "Intern in Software Architecture at IBM",
+    title: "Software Architect - Intern",
     description:"Architecture and implementation to help with the security of servers, as well as databases using microservices. Architecture and unification of user accounts from different platforms using REST APIs, databases, OOP, Java and UML. Creation of integrations to synchronize different tools with webhooks and node.js",
     from: "July 2021",
     to: "Current",
+    company: "IBM",
+    logo: <SiIbm/>
   },
   {
-    title: "Intern Software Developer at Robert Bosch GmbH",
+    title: "Software Developer - Intern",
     description:
       "Develop software in VBA and testing automation",
     from: "January 2021",
     to: "July 2021",
+    company: "Robert Bosch GmbH",
+    logo: <SiBosch/>
   }
 ];
 
