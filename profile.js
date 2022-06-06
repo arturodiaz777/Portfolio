@@ -71,10 +71,18 @@ export const backEnd = [
 
 export const experiences = [
   {
+    title: "Full Stack Developer",
+    description:"Lead the review and estimation of requirements while working with a team to plan agile sprints related to application and process development roadmaps. Lead code reviews and provide feedback to peers, manager, and the team product owner. Lead architecture and technical roadmap planning sessions. Propose implementation and architecture patterns and best practices to management and product teams. Develop web applications with languages such as Python, Java, PHP and JavaScript. Commit and organize source code in GitHub enterprise. Develop back-end processes and APIs required by front-end applications. Define necessary data models and schemas for the applications supported. Managing the complete software development process from conception to deployment.",
+    from: "June 2022",
+    to: "Current",
+    company: "IBM",
+    logo: <SiIbm/>
+  },
+  {
     title: "Software Architect - Intern",
     description:"Architecture and implementation to help with the security of servers, as well as databases using microservices. Architecture and unification of user accounts from different platforms using REST APIs, databases, OOP, Java and UML. Creation of integrations to synchronize different tools with webhooks and node.js",
     from: "July 2021",
-    to: "Current",
+    to: "June 2022",
     company: "IBM",
     logo: <SiIbm/>
   },
