@@ -15,7 +15,7 @@ const Index = () => (
             </div>
             <div className="col-md-8">
               <h1>Arturo Diaz</h1>
-              <h3>Developer Jr</h3>
+              <h3>Full Stack Developer</h3>
               <p align ="justify">
               As Developer i am responsible for creating and maintaining software of various different kinds.
                My typical responsibilities include investigating current applications, producing specifications
